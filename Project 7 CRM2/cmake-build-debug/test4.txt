@@ -1,0 +1,18 @@
+Inventory Bottles 50
+Inventory Rattles 50
+Inventory Diapers 50
+
+Inventory Diapers 200
+
+Summarize
+Quit
+/** test4 Results should be: **/
+There are 50 Bottles, 250 Diapers and 50 Rattles in inventory
+we have had a total of 0 different customers
+no one has purchased any Bottles
+no one has purchased any Diapers
+no one has purchased any Rattles
+/********* end of test 4 *************/
+
+
+

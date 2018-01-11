@@ -1,0 +1,43 @@
+Q: Can we use globals or static variables? How about helper functions?
+
+A: You can't use globals or statics, but you can use helper functions as long as they don't have loops, globals, or statics.
+
+
+Q: Are we allowed to modify the whatLetter function in our starter code?
+
+A: No, but you can write your own different function.
+
+
+Q: Does the sqrt function need to work for values less than 1 and negative values?
+
+A: It should work for values less than 1, but you can assume you won't get negative values.
+
+
+Q: What should the min function return if the array length is 0?
+
+A: The minimum isn't well defined there, so we will not give you a case where the array length is 0.
+
+
+Q: Do we have to do anything with the iterative functions? Can we delete them?
+
+A: You don't have to fill them in, but you shouldn't delete them. Just leave them black if you don't want to do them.
+
+
+Q: How can I test my maze function with more mazes?
+
+A: Seed the random number generator used to make the maze. Right before the makeMaze function in main, there is a call to srand that passes in a number. Changing that number will create a different maze to test with.
+
+
+Q: For the makeChange function, if there are multiple ways to use the fewest number of coins, which one do we choose?
+
+A: It doesn't matter, we will take care of it.
+
+
+Q: Do we put a # at the start and end of the maze too?
+
+A: Yes.
+
+
+Q: What is the maximum amount of money that will be tested for makeChange?
+
+A: After 100 or so, the function gets pretty slow because we are using almost a brute force algorithm. We will not test much higher than that.

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/User/CLionProjects/Project 4 CRM/Invent.h
+MyString.h
+C:/Users/User/CLionProjects/Project 4 CRM/MyString.h
+
+C:/Users/User/CLionProjects/Project 4 CRM/MyString.cpp
+stdio.h
+-
+stdlib.h
+-
+MyString.h
+C:/Users/User/CLionProjects/Project 4 CRM/MyString.h
+
+C:/Users/User/CLionProjects/Project 4 CRM/MyString.h
+
+C:/Users/User/CLionProjects/Project 4 CRM/Project4.cpp
+stdio.h
+-
+MyString.h
+C:/Users/User/CLionProjects/Project 4 CRM/MyString.h
+Invent.h
+C:/Users/User/CLionProjects/Project 4 CRM/Invent.h
+stddef.h
+-
+stdint.h
+-
+
+C:/Users/User/CLionProjects/Project 4 CRM/main.cpp
+stdio.h
+-
+stdlib.h
+-
+MyString.h
+C:/Users/User/CLionProjects/Project 4 CRM/MyString.h
+Invent.h
+C:/Users/User/CLionProjects/Project 4 CRM/Invent.h
+
